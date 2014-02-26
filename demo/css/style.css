@@ -1,0 +1,26 @@
+html,
+body {
+  font-size: 16px;
+  padding: 1rem;
+  font-family: Arial;
+  background-color: #eeeeee; }
+
+blockquote {
+  font-family: Courier;
+  padding: 1rem;
+  -webkit-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-radius: 1rem;
+  background-color: white; }
+
+article {
+  border: 1px solid #333333;
+  -webkit-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 1rem; }

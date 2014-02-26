@@ -1,0 +1,27 @@
+// import your mix-fu file!
+@import "../../mix-fu";
+
+// start basic styling for demo!
+$color-prime: #333;
+$color-contrast: #eee;
+
+html,
+body {
+  @include fs(16px);
+  @include pad(1rem);
+  @include ff(Arial);
+  @include bc($color-contrast);
+}
+blockquote {
+  @include ff(Courier);
+  @include pad(1rem);
+  @include vp(border-radius,1rem);
+  @include bc(#fff);
+}
+article {
+  @include bo(1px solid $color-prime);
+  @include borr(0.4rem);
+  @include pad(1rem);
+  @include m(1rem);
+}
+// end basic styling for demo!

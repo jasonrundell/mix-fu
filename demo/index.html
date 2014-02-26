@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mix Fu! Demo!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Mix Fu! Demo!</h1>
+    <article>
+      <h2>@mixin vp($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        vp(border-radius,5px)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        -webkit-border-radius: 5px;<br>
+        -ms-border-radius: 5px;<br>
+        -moz-border-radius: 5px;<br>
+        -o-border-radius: 5px;<br>
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin tra($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        tra(color 0.5s ease)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        -webkit-transition: color 0.5s ease;<br>
+        -ms-transition: color 0.5s ease;<br>
+        -moz-transition: color 0.5s ease;<br>
+        -o-transition: color 0.5s ease;<br>
+        transition: color 0.5s ease;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin b($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        b(0)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        bottom: 0;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin bc($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        bc(#000)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        background-color: #000;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin bo($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        bo(1px solid #000)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        border: 1px solid #000;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin bor($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        bor(1px solid #000)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        border-right: 1px solid #000;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin bol($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        bol(1px solid #000)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        border-left: 1px solid #000;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin bot($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        bot(1px solid #000)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        border-top: 1px solid #000;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin bob($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        bob(1px solid #000)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        border-bottom: 1px solid #000;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin borr($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        borr(1px)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        -webkit-border-radius: 1px;<br>
+        -ms-border-radius: 1px;<br>
+        -moz-border-radius: 1px;<br>
+        -o-border-radius: 1px;<br>
+        border-radius: 1px;
+      </blockquote>
+    </article>
+    <article>
+      <h2>@mixin botlr($args)</h2>
+      <p>Example:</p>
+      <blockquote>
+        botlr(1px)
+      </blockquote>
+      <p>Output:</p>
+      <blockquote>
+        -webkit-border-top-left-radius: 1px;<br>
+        -ms-border-top-left-radius: 1px;<br>
+        -moz-border-top-left-radius: 1px;<br>
+        -o-border-top-left-radius: 1px;<br>
+        border-top-left-radius: 1px;
+      </blockquote>
+    </article>
+  </body>
+</html>
