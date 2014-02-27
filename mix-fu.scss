@@ -87,7 +87,7 @@
   max-width: $args;
 }
 @mixin o($args) {
-  opacity: $args;
+  @include vp(opacity,$args);
 }
 @mixin p($args) {
   position: $args;
