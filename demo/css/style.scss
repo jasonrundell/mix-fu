@@ -4,23 +4,25 @@
 // start basic styling for demo!
 $color-prime: #333;
 $color-contrast: #eee;
+$font-prime: Arial, sans-serif;
+$font-second: Courier, monospace;
 
 html,
 body {
   @include fs(16px);
   @include pad(1rem);
-  @include ff(Arial);
+  @include ff($font-prime);
   @include bc($color-contrast);
 }
 blockquote {
-  @include ff(Courier);
+  @include ff($font-second);
   @include pad(1rem);
   @include vp(border-radius,1rem);
   @include bc(#fff);
 }
 article {
-  @include bo(1px solid $color-prime);
-  @include borr(0.4rem);
+  @include bor(1px solid $color-prime);
+  @include borrad(0.4rem);
   @include pad(1rem);
   @include m(1rem);
 }
